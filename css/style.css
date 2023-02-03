@@ -135,7 +135,8 @@ img {
  }
 
  /* TABLET */
-/* La media query per il tablet è ridondante avendo solo la width: 100% in quanto
+/* La media query per il tablet è ridondante 
+avendo solo la width: 100% in quanto
 già impostata per esercizio bonus */
 
  /* MOBILE */
