@@ -128,26 +128,18 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* bonus */
  .container{
     width: 100%;
     max-width: 1440px;
  }
 
  /* TABLET */
- @media screen and (max-width: 768px) {
-
-    .container{
-        width: 100%;
-    }
-
- }
+/* La media query per il tablet è ridondante avendo solo la width: 100% in quanto
+già impostata per esercizio bonus */
 
  /* MOBILE */
  @media screen and (max-width: 480px) {
-
-    .container{
-        width: 100%;
-    }
 
     .row{
         flex-wrap: wrap;
